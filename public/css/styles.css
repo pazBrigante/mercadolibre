@@ -170,6 +170,7 @@ div .productos {
     width:100;
 }
 
+
 main {
     width:90%;
 }
@@ -195,7 +196,15 @@ main section article i,
 }
 
 
-@media (min-width:700px) {
+
+
+
+@media (max-width:769px) {
+        .productos {
+            transform:rotate(-90deg);
+        }
+
+
         .main-navbar {
             display:flex;
             justify-content:space-between;
@@ -220,16 +229,17 @@ main section article i,
             width:100%;
             text-align:center;
             background-color:white;
-            transition:all 450ms;
+            
         }
 
-        main select article {
+        #icon {
+            transition:all 450ms;
+            color: #eac926
+        }
+        .productos {
             box-shadow: 0px 0px 10px rgb (100 100 100);
         }
 
-        .main-article {
-
-        }
 
         .price {
             width:50%;
@@ -292,7 +302,10 @@ main section article i,
         }
     }
     
-@media (min-width:360px) {
+@media screen and (min-width:361px) {
+    .productos {
+        width:45%;
+    }
     .log {
         width:200px;
         }
