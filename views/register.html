@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styless.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <main>
+        <form action="/register.html" method="post">
+            <div class="formulario">
+                <label>Nombre y apellido</label>
+                <input type="text" name="usuario" placeholder="Nombre y apellido" id="usuario" class="input">
+            </div>
+
+            <div class="formulario">
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecha-de-nacimiento" placeholder="Fecha de nacimiento" id="fecha" class="input">
+            </div>
+            
+            <div class="formulario">
+                <label>Domicilio</label>
+                <input type="text" name="domicilio" placeholder="Domicilio" id="domicilio" class="input"> 
+            </div>
+            
+            <div class="formulario">
+                  <label>Seleccionar una opción</label>
+            <select name="¿Queres comprar o vender?">
+                <option value="comprar">Comprar</option>
+                <option value="vender">Vender</option>
+            </select>
+            </div>
+          
+            <div class="formulario">
+                <label>Categorías de interés</label>
+                <input type="checkbox" name="categoria-electro">Electro
+                <input type="checkbox" name="categoria-moda"> Moda
+                <input type="checkbox" name="categoria-moda">Hogar
+                <input type="checkbox" name="categoria-jugueteria">Jugeteria
+                <input type="checkbox" name="categoria-vida-sana">Vida sana 
+            </div>    
+
+            <div class="formulario">
+                <label>Foto de Usuario</label>
+                <input type="file" name="imagen-de-perfil" accept="jpg" class="input">
+            </div>
+
+            <div class="formulario">
+                <label>Contraseña</label>
+                <input type="password" name="contraseña" placeholder="Contraseña" id="Contraseña" class="input">
+            
+            <div class="formulario">
+                <label>Confirmar contraseña</label>
+                <input type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña" id="Contraseña" class="input">
+            </div>
+
+            <div>
+                <button type="rest" class="formulario-boton">Borrar</button> 
+             
+                <button type="submit" class="formulario-boton">Enviar</button> 
+              </div>
+             
+             <div>
+                 <button type="submit" class="formulario-boton">Crear cuenta</button>
+            </div>
+              
+             
+
+
+         </form>   
+    </main>
+</header>
+</body>
+</html>
